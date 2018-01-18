@@ -22,6 +22,9 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBOutlet weak var Button1: NSButton!
+    @IBAction func Button1(_ sender: NSButton) {
+    }
+    
 }
 
