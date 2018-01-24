@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13196"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13189.4"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -709,46 +709,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tgD-of-SMx">
-                                <rect key="frame" x="200" y="387" width="151" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="k6o-fL-s0q">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="Button1:" target="XfG-lQ-9wD" id="x6f-NO-zRe"/>
-                                </connections>
-                            </button>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vb5-EV-i80">
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VVL-Xv-5gh">
                                 <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="HomeScreen2" id="Vkv-8v-Hkk"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="HomeScreen" id="Tvn-UB-gnF"/>
                             </imageView>
-                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ECu-qo-wbN">
-                                <rect key="frame" x="548" y="199" width="138" height="48"/>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ocR-AM-eS2">
+                                <rect key="frame" x="551" y="194" width="137" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="button1" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="UpC-Zc-wgy">
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="SchoolButton" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="FWX-4K-Pm5">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="SchoolButton:" target="XfG-lQ-9wD" id="bm9-81-VuS"/>
+                                    <segue destination="P76-v7-ibe" kind="show" id="KLj-AT-3hI"/>
                                 </connections>
                             </button>
                         </subviews>
                     </view>
-                    <connections>
-                        <outlet property="Button1" destination="tgD-of-SMx" id="es7-kA-KZ7"/>
-                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="175" y="981"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Fcp-GT-bt9">
+            <objects>
+                <viewController id="P76-v7-ibe" sceneMemberID="viewController">
+                    <view key="view" id="hfG-zn-wcq">
+                        <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2vU-zl-bhL">
+                                <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="SchoolViewImage" id="8Sh-F1-emM"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="lCW-xb-lUd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1289" y="981"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="HomeScreen2" width="1440" height="810"/>
-        <image name="button1" width="135" height="54"/>
+        <image name="HomeScreen" width="1297" height="730"/>
+        <image name="SchoolButton" width="135" height="54"/>
+        <image name="SchoolViewImage" width="1440" height="810"/>
     </resources>
 </document>
