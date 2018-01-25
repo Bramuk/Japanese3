@@ -732,10 +732,10 @@
             </objects>
             <point key="canvasLocation" x="175" y="981"/>
         </scene>
-        <!--View Controller-->
+        <!--School View-->
         <scene sceneID="Fcp-GT-bt9">
             <objects>
-                <viewController id="P76-v7-ibe" sceneMemberID="viewController">
+                <viewController id="P76-v7-ibe" customClass="SchoolView" customModule="Japanese3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="hfG-zn-wcq">
                         <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -745,8 +745,71 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="SchoolViewImage" id="8Sh-F1-emM"/>
                             </imageView>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Zd-zl-3Lf">
+                                <rect key="frame" x="156" y="91" width="289" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ScQuestion1WrongAnswer1TL" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="kqh-di-63O">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ScQ1TLButton:" target="P76-v7-ibe" id="BGi-jZ-Ten"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m3j-SM-THa">
+                                <rect key="frame" x="505" y="91" width="287" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ScQuestion1WrongAnswer2TR" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="Ofq-Af-9iS">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ScQ1TRButton:" target="P76-v7-ibe" id="YZg-EY-Tjp"/>
+                                </connections>
+                            </button>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Au1-KL-CRf">
+                                <rect key="frame" x="237" y="147" width="473" height="308"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ScQuestion1WrongAnswerPopup" id="tui-qh-kQW"/>
+                                <connections>
+                                    <action selector="Sc1Q1WrgAnsPopUp:" target="P76-v7-ibe" id="m1c-Tc-l9I"/>
+                                </connections>
+                            </imageView>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sNi-Ao-2t5">
+                                <rect key="frame" x="156" y="29" width="289" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ScQuestion1CorrectAnswerBL" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="ggt-jT-8r4">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ScQ1BLButton:" target="P76-v7-ibe" id="WbA-rI-rdC"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hcL-sb-la9">
+                                <rect key="frame" x="505" y="30" width="282" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ScQuestion1WrongAnswer3BR" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="CkE-33-SM6">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ScQ1BRButton:" target="P76-v7-ibe" id="nl4-hi-stJ"/>
+                                </connections>
+                            </button>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RN9-Ze-zBP">
+                                <rect key="frame" x="245" y="160" width="465" height="286"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ScQuestion1CorrectAnswerPopup" id="4YD-9C-JNa"/>
+                            </imageView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="Sc1Q1TLPopUp" destination="7Zd-zl-3Lf" id="icX-lh-Pk6"/>
+                        <outlet property="Sc1Q1WrgAnsPopUp" destination="Au1-KL-CRf" id="MZ9-Qb-aq5"/>
+                        <outlet property="ScQ1CrtAnsPopUp" destination="RN9-Ze-zBP" id="3kj-wq-jLd"/>
+                        <outlet property="ScQ1WrgAnsPopUp" destination="Au1-KL-CRf" id="C3s-rx-KgZ"/>
+                    </connections>
                 </viewController>
                 <customObject id="lCW-xb-lUd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -755,6 +818,12 @@
     </scenes>
     <resources>
         <image name="HomeScreen" width="1297" height="730"/>
+        <image name="ScQuestion1CorrectAnswerBL" width="398" height="63"/>
+        <image name="ScQuestion1CorrectAnswerPopup" width="643" height="394"/>
+        <image name="ScQuestion1WrongAnswer1TL" width="296" height="47"/>
+        <image name="ScQuestion1WrongAnswer2TR" width="520" height="80"/>
+        <image name="ScQuestion1WrongAnswer3BR" width="397" height="61"/>
+        <image name="ScQuestion1WrongAnswerPopup" width="441" height="271"/>
         <image name="SchoolButton" width="135" height="54"/>
         <image name="SchoolViewImage" width="1440" height="810"/>
     </resources>
