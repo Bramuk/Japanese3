@@ -45,6 +45,12 @@ class SchoolView: NSViewController {
         ScQ1WrgAnsPopUp.isHidden = false
     }
     
+    @IBAction func ScQ1ReplayButton(_ sender: Any)
+    {
+        ScQ1WrgAnsPopUp.isHidden = true
+        ScQ1CrtAnsPopUp.isHidden = true
+    }
     
+
     
 }
