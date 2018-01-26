@@ -12,9 +12,34 @@ class SchoolView2: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ScQ2WrgAnsPopUp.isHidden = true
+        ScQ2CrtAnsPopUp.isHidden = true
+        
         // Do view setup here.
     }
     
+    
+    @IBOutlet weak var ScQ2WrgAnsPopUp: NSImageView!
+    
+    @IBOutlet weak var ScQ2CrtAnsPopUp: NSImageView!
+    
+    
+    @IBAction func ScQ2TLButton(_ sender: Any) {
+        ScQ2CrtAnsPopUp.isHidden = false
+    }
+    
+    @IBAction func ScQ2TRButton(_ sender: Any) {
+        ScQ2WrgAnsPopUp.isHidden = false
+    }
+    
+    @IBAction func ScQ2BLButton(_ sender: Any) {
+        ScQ2WrgAnsPopUp.isHidden = false
+    }
+    
+    @IBAction func ScQ2BRButton(_ sender: Any) {
+        ScQ2WrgAnsPopUp.isHidden = false
+    }
     
     
 }
