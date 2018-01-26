@@ -24,11 +24,11 @@ class SchoolView: NSViewController {
     
     @IBOutlet weak var ScQ1CrtAnsPopUp: NSImageView!
     
+    
     @IBAction func ScQ1TLButton(_ sender: Any)
     {
         ScQ1WrgAnsPopUp.isHidden = false
     }
-    
     
     @IBAction func ScQ1TRButton(_ sender: Any)
     {
@@ -50,7 +50,6 @@ class SchoolView: NSViewController {
         ScQ1WrgAnsPopUp.isHidden = true
         ScQ1CrtAnsPopUp.isHidden = true
     }
-    
 
     
 }

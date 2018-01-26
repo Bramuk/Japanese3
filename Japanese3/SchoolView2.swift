@@ -25,19 +25,23 @@ class SchoolView2: NSViewController {
     @IBOutlet weak var ScQ2CrtAnsPopUp: NSImageView!
     
     
-    @IBAction func ScQ2TLButton(_ sender: Any) {
+    @IBAction func ScQ2TLButton(_ sender: Any)
+    {
         ScQ2CrtAnsPopUp.isHidden = false
     }
     
-    @IBAction func ScQ2TRButton(_ sender: Any) {
+    @IBAction func ScQ2TRButton(_ sender: Any)
+    {
         ScQ2WrgAnsPopUp.isHidden = false
     }
     
-    @IBAction func ScQ2BLButton(_ sender: Any) {
+    @IBAction func ScQ2BLButton(_ sender: Any)
+    {
         ScQ2WrgAnsPopUp.isHidden = false
     }
     
-    @IBAction func ScQ2BRButton(_ sender: Any) {
+    @IBAction func ScQ2BRButton(_ sender: Any)
+    {
         ScQ2WrgAnsPopUp.isHidden = false
     }
     
