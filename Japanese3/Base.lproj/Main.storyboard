@@ -851,6 +851,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ScQ2View" id="kG3-NM-MGF"/>
                             </imageView>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x0c-Qk-Psu">
+                                <rect key="frame" x="731" y="173" width="58" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ScQ2NextButton" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="Xjq-Eb-a4d">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <segue destination="Ooe-O0-A36" kind="show" id="icB-Bw-Mec"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>
@@ -858,12 +869,34 @@
             </objects>
             <point key="canvasLocation" x="2365" y="981"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="rIS-KG-udl">
+            <objects>
+                <viewController id="Ooe-O0-A36" sceneMemberID="viewController">
+                    <view key="view" id="DXK-ub-oWM">
+                        <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dwG-Vl-gRA">
+                                <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ScQ3View" id="q2o-uq-rEJ"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="fHv-cb-xTZ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3499" y="981"/>
+        </scene>
     </scenes>
     <resources>
         <image name="HomeScreen" width="1297" height="730"/>
         <image name="ScQ1NextButton" width="74" height="73"/>
         <image name="ScQ1ReplayButton" width="81" height="78"/>
+        <image name="ScQ2NextButton" width="74" height="73"/>
         <image name="ScQ2View" width="1440" height="810"/>
+        <image name="ScQ3View" width="1440" height="810"/>
         <image name="ScQuestion1CorrectAnswerBL" width="398" height="63"/>
         <image name="ScQuestion1CorrectAnswerPopup" width="643" height="394"/>
         <image name="ScQuestion1WrongAnswer1TL" width="296" height="47"/>

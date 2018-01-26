@@ -1,5 +1,5 @@
 //
-//  SchoolView2.swift
+//  SchoolView3.swift
 //  Japanese3
 //
 //  Created by 박지원 on 26/01/2018.
@@ -8,13 +8,11 @@
 
 import Cocoa
 
-class SchoolView2: NSViewController {
+class SchoolView3: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
     }
-    
-    
     
 }
