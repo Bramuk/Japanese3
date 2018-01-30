@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13189.4"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13196"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -725,12 +726,101 @@
                                     <segue destination="P76-v7-ibe" kind="show" id="KLj-AT-3hI"/>
                                 </connections>
                             </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aJF-bB-vTg">
+                                <rect key="frame" x="556" y="53" width="126" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="RstButton" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="wa0-Ms-9fj">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <segue destination="t5c-e1-RLW" kind="show" id="AHF-ZO-kdR"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="175" y="981"/>
+        </scene>
+        <!--Restaurant View1-->
+        <scene sceneID="jKn-dS-XdC">
+            <objects>
+                <viewController id="t5c-e1-RLW" customClass="RestaurantView1" customModule="Japanese3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="3ao-gk-Hiy">
+                        <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uZ7-Kh-aTh">
+                                <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="RstQ1" id="gVy-qW-em0"/>
+                            </imageView>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ACt-Vs-Kfp">
+                                <rect key="frame" x="242" y="97" width="242" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="RstQ1CorrectAnsTR" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="ZIG-1B-7er">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="RstQ1TL:" target="t5c-e1-RLW" id="gbQ-b1-AuN"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k4J-1D-veI">
+                                <rect key="frame" x="521" y="97" width="228" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="RstQ1TL" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="qvv-ln-TOS">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="RstQ1TR:" target="t5c-e1-RLW" id="Duq-hq-QbP"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FK8-5H-TM9">
+                                <rect key="frame" x="527" y="41" width="217" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="RstQ1BL" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="U6i-by-nf6">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="RstQ1BR:" target="t5c-e1-RLW" id="A8T-Ti-PlQ"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qLh-v5-Qcy">
+                                <rect key="frame" x="248" y="36" width="231" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="RstQ1BR" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="Kv4-kb-Sbn">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="RstQ1BL:" target="t5c-e1-RLW" id="yAq-tu-7Kf"/>
+                                </connections>
+                            </button>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R5J-aj-fIS">
+                                <rect key="frame" x="260" y="167" width="441" height="279"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="RstQ1WrongPopUp" id="70M-ea-rhL"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xZZ-4W-cPM">
+                                <rect key="frame" x="260" y="160" width="441" height="286"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="RstQ1CorrectPopUp" id="ud1-uS-KuQ"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="RstQ1CrtPopUp" destination="xZZ-4W-cPM" id="6QS-Wh-o4O"/>
+                        <outlet property="RstQ1WrgPopUp" destination="R5J-aj-fIS" id="Bub-b1-hv9"/>
+                    </connections>
+                </viewController>
+                <customObject id="j1q-Ck-nYz" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1289" y="1681"/>
         </scene>
         <!--School View-->
         <scene sceneID="Fcp-GT-bt9">
@@ -958,6 +1048,14 @@
     </scenes>
     <resources>
         <image name="HomeScreen" width="1297" height="730"/>
+        <image name="RstButton" width="121" height="42"/>
+        <image name="RstQ1" width="1440" height="810"/>
+        <image name="RstQ1BL" width="197" height="33"/>
+        <image name="RstQ1BR" width="246" height="37"/>
+        <image name="RstQ1CorrectAnsTR" width="253" height="38"/>
+        <image name="RstQ1CorrectPopUp" width="449" height="276"/>
+        <image name="RstQ1TL" width="247" height="42"/>
+        <image name="RstQ1WrongPopUp" width="457" height="287"/>
         <image name="ScQ1NextButton" width="74" height="73"/>
         <image name="ScQ1ReplayButton" width="81" height="78"/>
         <image name="ScQ2CrtAns1TL" width="294" height="47"/>
