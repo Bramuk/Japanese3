@@ -858,13 +858,20 @@
             <objects>
                 <viewController id="bh4-GP-2CS" sceneMemberID="viewController">
                     <view key="view" id="K85-gh-97p">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="900" height="540"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iei-TA-Mvi">
+                                <rect key="frame" x="0.0" y="0.0" width="900" height="540"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="HomeScreen" id="KhV-Mx-MBU"/>
+                            </imageView>
+                        </subviews>
                     </view>
                 </viewController>
                 <customObject id="GKf-pO-fVY" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2186" y="2466"/>
+            <point key="canvasLocation" x="2234" y="2396"/>
         </scene>
         <!--School View-->
         <scene sceneID="Fcp-GT-bt9">
