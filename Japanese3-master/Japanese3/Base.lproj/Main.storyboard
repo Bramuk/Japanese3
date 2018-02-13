@@ -833,10 +833,10 @@
             </objects>
             <point key="canvasLocation" x="1289" y="1715"/>
         </scene>
-        <!--View Controller-->
+        <!--FestivalView1.swift-->
         <scene sceneID="Ek6-l5-sil">
             <objects>
-                <viewController id="Efp-WE-IQZ" sceneMemberID="viewController">
+                <viewController title="FestivalView1.swift" id="Efp-WE-IQZ" customClass="FestivalView1" customModule="Japanese3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="ceI-NQ-des">
                         <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
                         <autoresizingMask key="autoresizingMask"/>
