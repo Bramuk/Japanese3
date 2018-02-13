@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		874D52A0201638B60098CD35 /* SchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D529E201638B60098CD35 /* SchoolView.swift */; };
+		874D52A4201A33AC0098CD35 /* SchoolView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D52A2201A33AC0098CD35 /* SchoolView2.swift */; };
+		874D52A8201AD72C0098CD35 /* SchoolView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D52A6201AD72C0098CD35 /* SchoolView3.swift */; };
+		94F797F6201FF845008E5AAA /* RestaurantView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F797F5201FF845008E5AAA /* RestaurantView1.swift */; };
+		FFEA90A9200D8E1C00327727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEA90A8200D8E1C00327727 /* AppDelegate.swift */; };
+		FFEA90AB200D8E1C00327727 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEA90AA200D8E1C00327727 /* ViewController.swift */; };
+		FFEA90AD200D8E1C00327727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFEA90AC200D8E1C00327727 /* Assets.xcassets */; };
+		FFEA90B0200D8E1C00327727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEA90AE200D8E1C00327727 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		874D529E201638B60098CD35 /* SchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolView.swift; sourceTree = "<group>"; };
+		874D52A2201A33AC0098CD35 /* SchoolView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolView2.swift; sourceTree = "<group>"; };
+		874D52A6201AD72C0098CD35 /* SchoolView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolView3.swift; sourceTree = "<group>"; };
+		94F797F5201FF845008E5AAA /* RestaurantView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView1.swift; sourceTree = "<group>"; };
+		FFEA90A5200D8E1C00327727 /* Japanese3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Japanese3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFEA90A8200D8E1C00327727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFEA90AA200D8E1C00327727 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFEA90AC200D8E1C00327727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFEA90AF200D8E1C00327727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFEA90B1200D8E1C00327727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFEA90B2200D8E1C00327727 /* Japanese3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Japanese3.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFEA90A2200D8E1C00327727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFEA909C200D8E1C00327727 = {
+			isa = PBXGroup;
+			children = (
+				FFEA90A7200D8E1C00327727 /* Japanese3 */,
+				FFEA90A6200D8E1C00327727 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFEA90A6200D8E1C00327727 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFEA90A5200D8E1C00327727 /* Japanese3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFEA90A7200D8E1C00327727 /* Japanese3 */ = {
+			isa = PBXGroup;
+			children = (
+				FFEA90A8200D8E1C00327727 /* AppDelegate.swift */,
+				FFEA90AA200D8E1C00327727 /* ViewController.swift */,
+				874D529E201638B60098CD35 /* SchoolView.swift */,
+				874D52A2201A33AC0098CD35 /* SchoolView2.swift */,
+				874D52A6201AD72C0098CD35 /* SchoolView3.swift */,
+				94F797F5201FF845008E5AAA /* RestaurantView1.swift */,
+				FFEA90AC200D8E1C00327727 /* Assets.xcassets */,
+				FFEA90AE200D8E1C00327727 /* Main.storyboard */,
+				FFEA90B1200D8E1C00327727 /* Info.plist */,
+				FFEA90B2200D8E1C00327727 /* Japanese3.entitlements */,
+			);
+			path = Japanese3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFEA90A4200D8E1C00327727 /* Japanese3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFEA90B5200D8E1C00327727 /* Build configuration list for PBXNativeTarget "Japanese3" */;
+			buildPhases = (
+				FFEA90A1200D8E1C00327727 /* Sources */,
+				FFEA90A2200D8E1C00327727 /* Frameworks */,
+				FFEA90A3200D8E1C00327727 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Japanese3;
+			productName = Japanese3;
+			productReference = FFEA90A5200D8E1C00327727 /* Japanese3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFEA909D200D8E1C00327727 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Bram Williams";
+				TargetAttributes = {
+					FFEA90A4200D8E1C00327727 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFEA90A0200D8E1C00327727 /* Build configuration list for PBXProject "Japanese3" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFEA909C200D8E1C00327727;
+			productRefGroup = FFEA90A6200D8E1C00327727 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFEA90A4200D8E1C00327727 /* Japanese3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFEA90A3200D8E1C00327727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEA90AD200D8E1C00327727 /* Assets.xcassets in Resources */,
+				FFEA90B0200D8E1C00327727 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFEA90A1200D8E1C00327727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874D52A8201AD72C0098CD35 /* SchoolView3.swift in Sources */,
+				94F797F6201FF845008E5AAA /* RestaurantView1.swift in Sources */,
+				874D52A0201638B60098CD35 /* SchoolView.swift in Sources */,
+				874D52A4201A33AC0098CD35 /* SchoolView2.swift in Sources */,
+				FFEA90AB200D8E1C00327727 /* ViewController.swift in Sources */,
+				FFEA90A9200D8E1C00327727 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFEA90AE200D8E1C00327727 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFEA90AF200D8E1C00327727 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFEA90B3200D8E1C00327727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFEA90B4200D8E1C00327727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		FFEA90B6200D8E1C00327727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Japanese3/Japanese3.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Japanese3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Japanese3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		FFEA90B7200D8E1C00327727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Japanese3/Japanese3.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Japanese3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Japanese3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFEA90A0200D8E1C00327727 /* Build configuration list for PBXProject "Japanese3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFEA90B3200D8E1C00327727 /* Debug */,
+				FFEA90B4200D8E1C00327727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFEA90B5200D8E1C00327727 /* Build configuration list for PBXNativeTarget "Japanese3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFEA90B6200D8E1C00327727 /* Debug */,
+				FFEA90B7200D8E1C00327727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFEA909D200D8E1C00327727 /* Project object */;
+}
