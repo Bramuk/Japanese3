@@ -10,9 +10,20 @@ import Cocoa
 
 class FestivalView1: NSViewController {
 
+    @IBOutlet weak var FstQ1WAPopup: NSImageView!
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do view setup here.
+ FstQ1WAPopup.isHidden = true
+        
+        
+        
+        }
+        
+
+    @IBAction func FstQ1TL(_ sender: NSButton) {
+        FstQ1WAPopup.isHidden = false
     }
+    
+        
+    
     
 }

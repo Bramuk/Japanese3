@@ -846,8 +846,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="topLeft" imageScaling="proportionallyUpOrDown" image="FstQ1" id="YjP-6g-CzB"/>
                             </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R4z-xr-WSk">
+                                <rect key="frame" x="254" y="129" width="462" height="318"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" userInterfaceLayoutDirection="rightToLeft" alignment="left" imageScaling="proportionallyDown" image="FstQ1WAPopup" id="mLD-WK-nGT"/>
+                            </imageView>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EqT-jW-w7z">
+                                <rect key="frame" x="168" y="74" width="275" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="FstQ1TL" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="UJB-RR-O0W">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="FstQ1TL:" target="Efp-WE-IQZ" id="N4N-mf-XMM"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="FstQ1WAPopup" destination="R4z-xr-WSk" id="a3V-ZR-nSN"/>
+                    </connections>
                 </viewController>
                 <customObject id="kYQ-zD-NtP" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1080,6 +1099,8 @@
     <resources>
         <image name="FstHS" width="101" height="34"/>
         <image name="FstQ1" width="822" height="463"/>
+        <image name="FstQ1TL" width="207" height="36"/>
+        <image name="FstQ1WAPopup" width="410" height="261"/>
         <image name="HomeScreen" width="1297" height="730"/>
         <image name="RstButton" width="121" height="42"/>
         <image name="RstQ1" width="1440" height="810"/>
