@@ -737,6 +737,17 @@
                                     <segue destination="t5c-e1-RLW" kind="show" id="AHF-ZO-kdR"/>
                                 </connections>
                             </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aSP-ML-bJN">
+                                <rect key="frame" x="556" y="136" width="126" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="FstHS" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="Yz7-Y8-5QN">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <segue destination="Efp-WE-IQZ" kind="show" id="FJ0-OL-MSR"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>
@@ -820,7 +831,7 @@
                 </viewController>
                 <customObject id="j1q-Ck-nYz" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1289" y="1681"/>
+            <point key="canvasLocation" x="1289" y="1715"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ek6-l5-sil">
@@ -840,7 +851,7 @@
                 </viewController>
                 <customObject id="kYQ-zD-NtP" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1289" y="2406"/>
+            <point key="canvasLocation" x="235" y="1747"/>
         </scene>
         <!--School View-->
         <scene sceneID="Fcp-GT-bt9">
@@ -1067,6 +1078,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="FstHS" width="101" height="34"/>
         <image name="FstQ1" width="822" height="463"/>
         <image name="HomeScreen" width="1297" height="730"/>
         <image name="RstButton" width="121" height="42"/>
