@@ -46,4 +46,11 @@ class RestaurantView1: NSViewController {
         RstQ1CrtPopUp.isHidden = false
     }
     
+    @IBAction func ScQ1ReplayButton(_ sender: Any) {
+        RstQ1WrgPopUp.isHidden = true
+        RstQ1CrtPopUp.isHidden = true
+        
+    }
+    
+   
 }
