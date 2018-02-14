@@ -862,9 +862,26 @@
                                     <action selector="FstQ1TL:" target="Efp-WE-IQZ" id="N4N-mf-XMM"/>
                                 </connections>
                             </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9wW-cE-Iea">
+                                <rect key="frame" x="165" y="16" width="281" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="FstQ1BL" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="xYa-cV-x3H">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="FstQ1BL:" target="Efp-WE-IQZ" id="ruW-nf-Fy3"/>
+                                </connections>
+                            </button>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xGH-vy-4br">
+                                <rect key="frame" x="236" y="130" width="498" height="317"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="FstQ1RAPopup" id="XZM-RU-LXy"/>
+                            </imageView>
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="FstQ1RAPopup" destination="xGH-vy-4br" id="FNY-4F-vKI"/>
                         <outlet property="FstQ1WAPopup" destination="R4z-xr-WSk" id="a3V-ZR-nSN"/>
                     </connections>
                 </viewController>
@@ -1099,6 +1116,8 @@
     <resources>
         <image name="FstHS" width="101" height="34"/>
         <image name="FstQ1" width="822" height="463"/>
+        <image name="FstQ1BL" width="242" height="36"/>
+        <image name="FstQ1RAPopup" width="384" height="254"/>
         <image name="FstQ1TL" width="207" height="36"/>
         <image name="FstQ1WAPopup" width="410" height="261"/>
         <image name="HomeScreen" width="1297" height="730"/>

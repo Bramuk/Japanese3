@@ -13,14 +13,16 @@ class FestivalView1: NSViewController {
     @IBOutlet weak var FstQ1WAPopup: NSImageView!
     override func viewDidLoad() {
  FstQ1WAPopup.isHidden = true
-        
-        
-        
         }
-        
+    
 
+    
+    
     @IBAction func FstQ1TL(_ sender: NSButton) {
         FstQ1WAPopup.isHidden = false
+    }
+    @IBAction func FstQ1BL(_ sender: NSButton){
+        
     }
     
         
