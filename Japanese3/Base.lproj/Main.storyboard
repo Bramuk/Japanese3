@@ -842,10 +842,10 @@
             </objects>
             <point key="canvasLocation" x="1289" y="1681"/>
         </scene>
-        <!--View Controller-->
+        <!--Restaurant View2-->
         <scene sceneID="eXD-So-Flr">
             <objects>
-                <viewController id="tsC-MX-mbt" sceneMemberID="viewController">
+                <viewController id="tsC-MX-mbt" customClass="RestaurantView2" customModule="Japanese3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="RXR-wP-wX0">
                         <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -908,18 +908,23 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ScQ1NextButton" id="chM-vM-uHA"/>
                             </imageView>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4tC-Jd-KA8">
-                                <rect key="frame" x="253" y="45" width="425" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="RstQ1WrongPopUp" id="X6y-Z3-FuY"/>
-                            </imageView>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EmH-47-DOM">
-                                <rect key="frame" x="253" y="180" width="425" height="300"/>
+                                <rect key="frame" x="245" y="153" width="425" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="RstQ2CorrectPopUp" id="R2p-OP-eua"/>
                             </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4tC-Jd-KA8">
+                                <rect key="frame" x="245" y="159" width="425" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="RstQ1WrongPopUp" id="X6y-Z3-FuY"/>
+                            </imageView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="RstQ2CrtPopUp" destination="EmH-47-DOM" id="1Pq-mh-nQl"/>
+                        <outlet property="RstQ2WrgPopUp" destination="4tC-Jd-KA8" id="Upz-2X-hZ1"/>
+                        <outlet property="r" destination="EmH-47-DOM" id="yao-Uf-YI8"/>
+                    </connections>
                 </viewController>
                 <customObject id="SUS-H8-uJi" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

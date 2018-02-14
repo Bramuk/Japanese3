@@ -13,6 +13,13 @@ class RestaurantView2: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
+        
+        
     }
     
+    @IBOutlet weak var RstQ2CrtPopUp: NSImageView!
+    
+    @IBOutlet weak var RstQ2WrgPopUp: NSImageView!
 }
