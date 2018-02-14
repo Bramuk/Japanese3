@@ -871,6 +871,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ScQ2CrtAnsPopUp" id="9d7-0O-dpY"/>
                             </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r01-Yu-9Xw">
+                                <rect key="frame" x="232" y="164" width="473" height="274"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="HomeScreen" id="NNF-Wp-tDU"/>
+                            </imageView>
                         </subviews>
                     </view>
                 </viewController>
