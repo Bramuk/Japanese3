@@ -11,6 +11,7 @@
 		874D52A4201A33AC0098CD35 /* SchoolView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D52A2201A33AC0098CD35 /* SchoolView2.swift */; };
 		874D52A8201AD72C0098CD35 /* SchoolView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D52A6201AD72C0098CD35 /* SchoolView3.swift */; };
 		94385B5A20346BCD00409407 /* RestaurantView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94385B5920346BCD00409407 /* RestaurantView2.swift */; };
+		94385B5C20347E1900409407 /* RestaurantView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94385B5B20347E1900409407 /* RestaurantView3.swift */; };
 		94F797F6201FF845008E5AAA /* RestaurantView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F797F5201FF845008E5AAA /* RestaurantView1.swift */; };
 		FFEA90A9200D8E1C00327727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEA90A8200D8E1C00327727 /* AppDelegate.swift */; };
 		FFEA90AB200D8E1C00327727 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEA90AA200D8E1C00327727 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		874D52A2201A33AC0098CD35 /* SchoolView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolView2.swift; sourceTree = "<group>"; };
 		874D52A6201AD72C0098CD35 /* SchoolView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolView3.swift; sourceTree = "<group>"; };
 		94385B5920346BCD00409407 /* RestaurantView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView2.swift; sourceTree = "<group>"; };
+		94385B5B20347E1900409407 /* RestaurantView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView3.swift; sourceTree = "<group>"; };
 		94F797F5201FF845008E5AAA /* RestaurantView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView1.swift; sourceTree = "<group>"; };
 		FFEA90A5200D8E1C00327727 /* Japanese3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Japanese3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFEA90A8200D8E1C00327727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				874D52A6201AD72C0098CD35 /* SchoolView3.swift */,
 				94F797F5201FF845008E5AAA /* RestaurantView1.swift */,
 				94385B5920346BCD00409407 /* RestaurantView2.swift */,
+				94385B5B20347E1900409407 /* RestaurantView3.swift */,
 				FFEA90AC200D8E1C00327727 /* Assets.xcassets */,
 				FFEA90AE200D8E1C00327727 /* Main.storyboard */,
 				FFEA90B1200D8E1C00327727 /* Info.plist */,
@@ -156,6 +159,7 @@
 				874D52A4201A33AC0098CD35 /* SchoolView2.swift in Sources */,
 				FFEA90AB200D8E1C00327727 /* ViewController.swift in Sources */,
 				FFEA90A9200D8E1C00327727 /* AppDelegate.swift in Sources */,
+				94385B5C20347E1900409407 /* RestaurantView3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
