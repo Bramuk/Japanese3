@@ -11,10 +11,11 @@ import Cocoa
 class SchoolView: NSViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
         ScQ1WrgAnsPopUp.isHidden = true
         ScQ1CrtAnsPopUp.isHidden = true
+        super.viewDidLoad()
+        
+        
 
         // Do view setup here.
     }
