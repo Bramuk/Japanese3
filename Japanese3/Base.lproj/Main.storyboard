@@ -745,7 +745,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <segue destination="gYN-tK-09K" kind="show" id="Ffj-dT-rFt"/>
+                                    <segue destination="gYN-tK-09K" kind="show" id="n0v-tz-9uk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -758,7 +758,7 @@
         <!--Festival View1-->
         <scene sceneID="IYM-Ff-nlu">
             <objects>
-                <viewController id="gYN-tK-09K" customClass="FestivalView1" sceneMemberID="viewController">
+                <viewController id="gYN-tK-09K" customClass="FestivalView1" customModule="Japanese3" sceneMemberID="viewController">
                     <view key="view" id="0F3-d1-Jv7">
                         <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -776,7 +776,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="FstQ1TL:" target="gYN-tK-09K" id="lPP-VH-9Ab"/>
+                                    <action selector="FstQ1TL:" target="gYN-tK-09K" id="Itf-fl-xBc"/>
                                 </connections>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cWV-Kl-kmm">
@@ -787,7 +787,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="FstQ1BL:" target="gYN-tK-09K" id="ieU-gR-Kxn"/>
+                                    <action selector="FstQ1BL:" target="gYN-tK-09K" id="6K2-4y-Tro"/>
                                 </connections>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gwk-RE-Rhf">
@@ -797,6 +797,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="FstQ1TR:" target="gYN-tK-09K" id="xva-iV-PxV"/>
+                                </connections>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Usa-n4-mFd">
                                 <rect key="frame" x="533" y="15" width="243" height="48"/>
@@ -805,28 +808,252 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="FstQ1BR:" target="gYN-tK-09K" id="73o-tX-qcx"/>
+                                </connections>
                             </button>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oPW-qT-6Iv">
                                 <rect key="frame" x="252" y="121" width="456" height="333"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="FstQ1RAPopup" id="JGb-Bu-dXg"/>
                             </imageView>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oL6-0b-J9d">
-                                <rect key="frame" x="252" y="129" width="456" height="325"/>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Swa-oJ-PMs">
+                                <rect key="frame" x="234" y="116" width="474" height="344"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="FstQ1WAPopUp" id="fjB-Gq-iUF"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="FstQ1WAPopUp" id="2T6-th-Uja"/>
                             </imageView>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XFX-n8-Oy1">
+                                <rect key="frame" x="154" y="138" width="83" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ReplayButton" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="AUQ-Mn-0nR">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ReplayButton:" target="gYN-tK-09K" id="EcB-bX-LgO"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lMn-h9-kuU">
+                                <rect key="frame" x="723" y="138" width="79" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NextButton" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="ltV-SG-jLb">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <segue destination="EAe-mc-lhy" kind="show" id="4dZ-Lu-1bn"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="FstQ1RAPopUP" destination="oPW-qT-6Iv" id="2dk-LF-EXV"/>
-                        <outlet property="FstQ1RAPopUp" destination="oPW-qT-6Iv" id="lHG-kx-ymi"/>
-                        <outlet property="FstQ1WAPopUp" destination="oL6-0b-J9d" id="w7c-y7-Vpd"/>
+                        <outlet property="FstQ1RAPopUp" destination="oPW-qT-6Iv" id="sgt-P9-7jf"/>
+                        <outlet property="FstQ1WAPopUp" destination="Swa-oJ-PMs" id="Tja-Pb-Zgp"/>
                     </connections>
                 </viewController>
                 <customObject id="sgF-PE-13J" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="175" y="1694"/>
+            <point key="canvasLocation" x="-313" y="1706"/>
+        </scene>
+        <!--Festival View2-->
+        <scene sceneID="v45-YN-Qil">
+            <objects>
+                <viewController id="EAe-mc-lhy" customClass="FestivalView2" customModule="Japanese3" sceneMemberID="viewController">
+                    <view key="view" id="vec-Y7-55f">
+                        <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="upc-ZU-bPS">
+                                <rect key="frame" x="-5" y="0.0" width="970" height="540"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="FstQ2" id="a5f-oO-3Ew"/>
+                            </imageView>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oce-2Z-XTW">
+                                <rect key="frame" x="169" y="71" width="263" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="FstQ2TL" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="y59-9E-7aE">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="FstQ2TL:" target="EAe-mc-lhy" id="Zzj-5y-5eg"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TfY-BC-QlN">
+                                <rect key="frame" x="169" y="7" width="263" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="FstQ2BL" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="HQg-th-qTH">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="FstQ2BL:" target="EAe-mc-lhy" id="KLj-Ai-EI0"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wHu-ir-Bqy">
+                                <rect key="frame" x="533" y="76" width="250" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="FstQ2TR" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="vrK-ev-7Pq">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="FstQ2TR:" target="EAe-mc-lhy" id="AyO-Vk-JKx"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3m3-Mh-vcQ">
+                                <rect key="frame" x="533" y="7" width="250" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="FstQ2BR" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="tuH-5V-JHg">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="FstQ2BR:" target="EAe-mc-lhy" id="tcE-m6-PWy"/>
+                                </connections>
+                            </button>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VZQ-po-g7C">
+                                <rect key="frame" x="221" y="122" width="495" height="342"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="FstQ2RAPopUp" id="VdE-Ii-D1L"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aTS-bb-MtY">
+                                <rect key="frame" x="235" y="127" width="481" height="337"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="FstQ3WAPopUp" id="Wzf-jX-78L"/>
+                            </imageView>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MJJ-x2-1FT">
+                                <rect key="frame" x="152" y="134" width="83" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ReplayButton" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="tcT-ed-m5E">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="FstQ2Replay:" target="EAe-mc-lhy" id="5kK-mN-baK"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qIH-Ex-paY">
+                                <rect key="frame" x="724" y="127" width="86" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NextButton" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="LJ2-Fa-t5t">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <segue destination="BU1-dQ-WN2" kind="show" id="GRI-GZ-CZr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="FstQ2RAPopUp" destination="VZQ-po-g7C" id="ZnI-nF-ma5"/>
+                        <outlet property="FstQ2WAPopUp" destination="aTS-bb-MtY" id="knb-VC-0rp"/>
+                    </connections>
+                </viewController>
+                <customObject id="ueE-9d-nbk" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="175" y="2430"/>
+        </scene>
+        <!--Festival View3-->
+        <scene sceneID="Cfn-ik-NPE">
+            <objects>
+                <viewController id="BU1-dQ-WN2" customClass="FestivalView3" customModule="Japanese3" sceneMemberID="viewController">
+                    <view key="view" id="0DJ-Jd-nv8">
+                        <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iUY-DU-knE">
+                                <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="FstQ3" id="vub-3f-boW"/>
+                            </imageView>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oG4-ox-Of5">
+                                <rect key="frame" x="186" y="72" width="248" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="FstQ3TL" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="Wrf-ut-T4A">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="FstQ3TL:" target="BU1-dQ-WN2" id="Egj-py-Tdx"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zoN-e6-fgS">
+                                <rect key="frame" x="186" y="14" width="248" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="FstQ3BL" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="9Vb-eG-S3Z">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="FstQ3BL:" target="BU1-dQ-WN2" id="xtc-bi-IvO"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hao-dV-djo">
+                                <rect key="frame" x="541" y="72" width="236" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="FstQ3TR" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="ynh-iX-kmc">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="FstQ3TR:" target="BU1-dQ-WN2" id="Djf-iO-X3P"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ig0-jZ-sHC">
+                                <rect key="frame" x="541" y="14" width="236" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="FstQ3BR" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="3NJ-Pg-BrJ">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="FstQ3BR:" target="BU1-dQ-WN2" id="zao-aI-dLm"/>
+                                </connections>
+                            </button>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xto-Pw-SQL">
+                                <rect key="frame" x="251" y="136" width="450" height="309"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="FstQ3RAPopUp" id="8XB-UI-d8a"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ymm-7I-ZTg">
+                                <rect key="frame" x="251" y="136" width="450" height="309"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="FstQ3WAPopUp" id="Bn3-Td-Md7"/>
+                            </imageView>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hCY-44-dWQ">
+                                <rect key="frame" x="153" y="136" width="90" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ReplayButton" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="PKj-Ph-FmE">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="FstQ3Replay:" target="BU1-dQ-WN2" id="Kjd-xV-je6"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EGT-5Z-iMC">
+                                <rect key="frame" x="722" y="130" width="82" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NextButton" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="hjF-7B-QsP">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <segue destination="gYN-tK-09K" kind="show" id="nfd-We-tAk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="FstQ3RAPopUp" destination="Xto-Pw-SQL" id="Zey-RD-MOg"/>
+                        <outlet property="FstQ3WAPopUp" destination="ymm-7I-ZTg" id="atI-gM-vgb"/>
+                    </connections>
+                </viewController>
+                <customObject id="xBb-Up-Fti" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-654" y="3111"/>
         </scene>
         <!--Restaurant View1-->
         <scene sceneID="jKn-dS-XdC">
@@ -1387,10 +1614,25 @@
         <image name="FstQ1TL" width="207" height="36"/>
         <image name="FstQ1TR" width="182" height="27"/>
         <image name="FstQ1WAPopUp" width="417" height="253"/>
+        <image name="FstQ2" width="822" height="464"/>
+        <image name="FstQ2BL" width="192" height="30"/>
+        <image name="FstQ2BR" width="227" height="34"/>
+        <image name="FstQ2RAPopUp" width="407" height="271"/>
+        <image name="FstQ2TL" width="205" height="29"/>
+        <image name="FstQ2TR" width="208" height="25"/>
+        <image name="FstQ3" width="823" height="464"/>
+        <image name="FstQ3BL" width="144" height="25"/>
+        <image name="FstQ3BR" width="119" height="18"/>
+        <image name="FstQ3RAPopUp" width="404" height="266"/>
+        <image name="FstQ3TL" width="171" height="28"/>
+        <image name="FstQ3TR" width="138" height="23"/>
+        <image name="FstQ3WAPopUp" width="426" height="267"/>
         <image name="HomeScreen" width="1297" height="730"/>
+        <image name="NextButton" width="74" height="72"/>
         <image name="Q2BR" width="169" height="22"/>
         <image name="Q2TL" width="175" height="27"/>
         <image name="Q2TR" width="150" height="25"/>
+        <image name="ReplayButton" width="28.5" height="28.5"/>
         <image name="RstButton" width="121" height="42"/>
         <image name="RstCrctTR" width="201" height="30"/>
         <image name="RstQ1" width="1440" height="810"/>
@@ -1429,4 +1671,7 @@
         <image name="SchoolButton" width="135" height="54"/>
         <image name="SchoolViewImage" width="1440" height="810"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="nfd-We-tAk"/>
+    </inferredMetricsTieBreakers>
 </document>
