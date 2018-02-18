@@ -11,6 +11,10 @@
 		874D52A8201AD72C0098CD35 /* SchoolView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D52A6201AD72C0098CD35 /* SchoolView3.swift */; };
 		94385B5A20346BCD00409407 /* RestaurantView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94385B5920346BCD00409407 /* RestaurantView2.swift */; };
 		94385B5C20347E1900409407 /* RestaurantView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94385B5B20347E1900409407 /* RestaurantView3.swift */; };
+		94385B5F2039145700409407 /* LastFst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94385B5E2039145600409407 /* LastFst.swift */; };
+		94385B622039146400409407 /* LastSc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94385B602039146400409407 /* LastSc.swift */; };
+		94385B632039146400409407 /* LastSc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94385B612039146400409407 /* LastSc.xib */; };
+		94385B652039147900409407 /* LastRst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94385B642039147900409407 /* LastRst.swift */; };
 		94F797F6201FF845008E5AAA /* RestaurantView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F797F5201FF845008E5AAA /* RestaurantView1.swift */; };
 		FF0C6AA02036577B00E07181 /* FestivalView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0C6A9E2036577B00E07181 /* FestivalView2.swift */; };
 		FF0C6AA12036577B00E07181 /* FestivalView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0C6A9F2036577B00E07181 /* FestivalView2.xib */; };
@@ -30,6 +34,10 @@
 		874D52A6201AD72C0098CD35 /* SchoolView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolView3.swift; sourceTree = "<group>"; };
 		94385B5920346BCD00409407 /* RestaurantView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView2.swift; sourceTree = "<group>"; };
 		94385B5B20347E1900409407 /* RestaurantView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView3.swift; sourceTree = "<group>"; };
+		94385B5E2039145600409407 /* LastFst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFst.swift; sourceTree = "<group>"; };
+		94385B602039146400409407 /* LastSc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastSc.swift; sourceTree = "<group>"; };
+		94385B612039146400409407 /* LastSc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LastSc.xib; sourceTree = "<group>"; };
+		94385B642039147900409407 /* LastRst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastRst.swift; sourceTree = "<group>"; };
 		94F797F5201FF845008E5AAA /* RestaurantView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView1.swift; sourceTree = "<group>"; };
 		FF0C6A9E2036577B00E07181 /* FestivalView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalView2.swift; sourceTree = "<group>"; };
 		FF0C6A9F2036577B00E07181 /* FestivalView2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FestivalView2.xib; sourceTree = "<group>"; };
@@ -88,6 +96,9 @@
 				FFBE281D2035206200293340 /* FestivalView1.swift */,
 				FF0C6A9E2036577B00E07181 /* FestivalView2.swift */,
 				FF0C6AA22036602800E07181 /* FestivalView3.swift */,
+				94385B5E2039145600409407 /* LastFst.swift */,
+				94385B602039146400409407 /* LastSc.swift */,
+				94385B642039147900409407 /* LastRst.swift */,
 				FFEA90AC200D8E1C00327727 /* Assets.xcassets */,
 				FFEA90AE200D8E1C00327727 /* Main.storyboard */,
 				FFEA90B1200D8E1C00327727 /* Info.plist */,
@@ -95,6 +106,7 @@
 				FFBE281E2035206200293340 /* FestivalView1.xib */,
 				FF0C6A9F2036577B00E07181 /* FestivalView2.xib */,
 				FF0C6AA32036602800E07181 /* FestivalView3.xib */,
+				94385B612039146400409407 /* LastSc.xib */,
 			);
 			path = Japanese3;
 			sourceTree = "<group>";
@@ -163,6 +175,7 @@
 				FFEA90AD200D8E1C00327727 /* Assets.xcassets in Resources */,
 				FFEA90B0200D8E1C00327727 /* Main.storyboard in Resources */,
 				FF0C6AA52036602800E07181 /* FestivalView3.xib in Resources */,
+				94385B632039146400409407 /* LastSc.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,11 +187,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				874D52A8201AD72C0098CD35 /* SchoolView3.swift in Sources */,
+				94385B5F2039145700409407 /* LastFst.swift in Sources */,
 				94F797F6201FF845008E5AAA /* RestaurantView1.swift in Sources */,
 				874D52A0201638B60098CD35 /* SchoolView.swift in Sources */,
 				FF0C6AA02036577B00E07181 /* FestivalView2.swift in Sources */,
+				94385B652039147900409407 /* LastRst.swift in Sources */,
 				FFBE281F2035206200293340 /* FestivalView1.swift in Sources */,
 				94385B5A20346BCD00409407 /* RestaurantView2.swift in Sources */,
+				94385B622039146400409407 /* LastSc.swift in Sources */,
 				FFEA90AB200D8E1C00327727 /* ViewController.swift in Sources */,
 				FF0C6AA72036CD9A00E07181 /* SchoolView2.swift in Sources */,
 				FFEA90A9200D8E1C00327727 /* AppDelegate.swift in Sources */,
