@@ -1041,7 +1041,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <segue destination="gYN-tK-09K" kind="show" id="nfd-We-tAk"/>
+                                    <segue destination="Aop-bF-al6" kind="show" id="8QV-Js-3sI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1054,6 +1054,26 @@
                 <customObject id="xBb-Up-Fti" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-654" y="3111"/>
+        </scene>
+        <!--Last Fst-->
+        <scene sceneID="4J9-Ae-XCO">
+            <objects>
+                <viewController id="Aop-bF-al6" customClass="LastFst" customModule="Japanese3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" identifier="L" id="bKb-fu-SRI">
+                        <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xrS-lW-aTf">
+                                <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Festival" id="gRa-8p-Phg"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="KTA-9M-uq1" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-654" y="3769"/>
         </scene>
         <!--Restaurant View1-->
         <scene sceneID="jKn-dS-XdC">
@@ -1229,11 +1249,6 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OLe-U0-bK7">
-                                <rect key="frame" x="712" y="180" width="61" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ScQ1NextButton" id="chM-vM-uHA"/>
-                            </imageView>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4tC-Jd-KA8">
                                 <rect key="frame" x="256" y="171" width="425" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -1244,6 +1259,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="RstQ2CorrectPopUp" id="R2p-OP-eua"/>
                             </imageView>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xf0-oc-TGr">
+                                <rect key="frame" x="716" y="185" width="58" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ScQ2NextButton" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="LDd-V8-eY2">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <segue destination="s5R-WZ-3nk" kind="show" id="CGl-hm-bTy"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
@@ -1255,6 +1281,26 @@
                 <customObject id="SUS-H8-uJi" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1289" y="3055"/>
+        </scene>
+        <!--Last Rst-->
+        <scene sceneID="JIf-P9-wVD">
+            <objects>
+                <viewController id="s5R-WZ-3nk" customClass="LastRst" customModule="Japanese3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="JyU-YS-khw">
+                        <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wCC-b8-u0S">
+                                <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Restaurant" id="kt0-L8-DVd"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="bL1-ko-aad" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1289" y="3760"/>
         </scene>
         <!--Restaurant View3-->
         <scene sceneID="gUW-Un-2lA">
@@ -1601,15 +1647,116 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ScQ3View" id="q2o-uq-rEJ"/>
                             </imageView>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v60-cQ-mmB">
+                                <rect key="frame" x="154" y="173" width="71" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ScQ2ReplayButton" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="ajV-d1-0a2">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ScQ3Replay:" target="Ooe-O0-A36" id="wES-Ba-O3y"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fUO-iu-FHa">
+                                <rect key="frame" x="731" y="178" width="58" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ScQ1NextButton" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="CRd-yh-IE2">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <segue destination="iGo-lQ-vqe" kind="show" id="6Qa-f1-IGF"/>
+                                </connections>
+                            </button>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OfX-0B-PGl">
+                                <rect key="frame" x="215" y="173" width="508" height="268"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="ScQ3CrctPopUp" id="AuR-tK-tIf"/>
+                            </imageView>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vz0-N3-GYd">
+                                <rect key="frame" x="231" y="178" width="475" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ScQ3WrgPopUp" id="u2H-Ml-VZX"/>
+                            </imageView>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ql-wG-5zc">
+                                <rect key="frame" x="504" y="32" width="295" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ScQ3BR" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="9Rc-TE-yHO">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ScQ3BR:" target="Ooe-O0-A36" id="Au3-WP-r5R"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vFo-cj-a6V">
+                                <rect key="frame" x="504" y="89" width="295" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ScQ3TR" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="CqD-gy-NFG">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ScQ3TR:" target="Ooe-O0-A36" id="gbJ-vm-i9l"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Qp-qF-nZa">
+                                <rect key="frame" x="148" y="92" width="298" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ScQ3TL" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="Ad9-w7-p7U">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ScQ3TL:" target="Ooe-O0-A36" id="Tuh-CD-aMZ"/>
+                                </connections>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XS1-6q-BkL">
+                                <rect key="frame" x="148" y="29" width="298" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="ScQ3BL" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="PNi-Aw-Qvt">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="ScQ3BL:" target="Ooe-O0-A36" id="HtI-1X-egh"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="ScQ3CorrectPopUp" destination="vz0-N3-GYd" id="mce-Qr-uwM"/>
+                        <outlet property="ScQ3WrongPopUp" destination="OfX-0B-PGl" id="dcv-Ff-Uii"/>
+                    </connections>
                 </viewController>
                 <customObject id="fHv-cb-xTZ" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3499" y="981"/>
         </scene>
+        <!--Last Sc-->
+        <scene sceneID="rhj-9S-aVX">
+            <objects>
+                <viewController id="iGo-lQ-vqe" customClass="LastSc" customModule="Japanese3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="4Y7-ft-ehP">
+                        <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CdM-xS-2VO">
+                                <rect key="frame" x="0.0" y="0.0" width="960" height="540"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="School" id="AtT-jq-cy0"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="af9-q3-zGg" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4594" y="981"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Festival" width="1440" height="810"/>
         <image name="FstQ1" width="822" height="463"/>
         <image name="FstQ1BL" width="242" height="36"/>
         <image name="FstQ1BR" width="138" height="24"/>
@@ -1636,6 +1783,7 @@
         <image name="Q2TL" width="175" height="27"/>
         <image name="Q2TR" width="150" height="25"/>
         <image name="ReplayButton" width="28.5" height="28.5"/>
+        <image name="Restaurant" width="1440" height="810"/>
         <image name="RstButton" width="121" height="42"/>
         <image name="RstCrctTR" width="201" height="30"/>
         <image name="RstQ1" width="1440" height="810"/>
@@ -1658,22 +1806,27 @@
         <image name="ScQ2BR" width="173" height="25"/>
         <image name="ScQ2CrtAns1TL" width="294" height="47"/>
         <image name="ScQ2CrtAnsPopUp" width="833" height="497"/>
+        <image name="ScQ2NextButton" width="74" height="73"/>
         <image name="ScQ2ReplayButton" width="81" height="78"/>
         <image name="ScQ2TR" width="126" height="26"/>
         <image name="ScQ2View" width="960" height="540"/>
         <image name="ScQ2WrgAns2BL" width="294" height="45"/>
         <image name="ScQ2WrgAnsPopUp" width="836" height="505"/>
+        <image name="ScQ3BL" width="340" height="54"/>
+        <image name="ScQ3BR" width="338" height="55"/>
+        <image name="ScQ3CrctPopUp" width="1440" height="810"/>
+        <image name="ScQ3TL" width="339" height="56"/>
+        <image name="ScQ3TR" width="336" height="61"/>
         <image name="ScQ3View" width="1440" height="810"/>
+        <image name="ScQ3WrgPopUp" width="1440" height="810"/>
         <image name="ScQuestion1CorrectAnswerBL" width="398" height="63"/>
         <image name="ScQuestion1CorrectAnswerPopup" width="643" height="394"/>
         <image name="ScQuestion1WrongAnswer1TL" width="296" height="47"/>
         <image name="ScQuestion1WrongAnswer2TR" width="520" height="80"/>
         <image name="ScQuestion1WrongAnswer3BR" width="397" height="61"/>
         <image name="ScQuestion1WrongAnswerPopup" width="441" height="271"/>
+        <image name="School" width="1440" height="810"/>
         <image name="SchoolButton" width="135" height="54"/>
         <image name="SchoolViewImage" width="1440" height="810"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="nfd-We-tAk"/>
-    </inferredMetricsTieBreakers>
 </document>
